@@ -1,50 +1,34 @@
-<h1 align="center">Olá, eu sou o Pablo 👋</h1>
-
 <p align="center">
-  <b>Desenvolvimento interno · Dados · Automação</b><br>
-  Construo as ferramentas que o time usa no dia a dia: portais, dashboards e integrações que tiram trabalho manual do caminho.
+  <samp>
+    <a href="https://www.linkedin.com/in/pablo-viniciuss/">linkedin</a> .
+    <a href="mailto:pablovinicius.pv939@gmail.com">email</a> .
+    <a href="https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3Apablo-afterlife">hermes prs</a>
+  </samp>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Aquila%20Consultoria-Dev%20Interno-0b5fff?style=flat-square" alt="Empresa">
-</p>
+# Hi, I'm Pablo 👋
+
+I build internal tools that replace manual work: web portals, data pipelines and system integrations that run a company's day-to-day operations.
+
+Outside of that, I work on **AI agents**, mostly by contributing to [Hermes Agent](https://github.com/NousResearch/hermes-agent) by Nous Research.
+
+## 🔧 What I'm working on
+
+**🤖 Hermes Agent** (open source)
+- [Workflow batch orchestration](https://github.com/NousResearch/hermes-agent/pull/85486) for subagents, with a semaphore and caps
+- [Continuable subagents](https://github.com/NousResearch/hermes-agent/pull/85485) with durable ids and settlement reports
+- [Cache-aware context compression](https://github.com/NousResearch/hermes-agent/pull/85481) that keeps the prompt cache warm
+- [Spilling oversized tool outputs](https://github.com/NousResearch/hermes-agent/pull/85480) to session files so they don't flood the context
+- A [Camofox browser backend](https://github.com/NousResearch/hermes-agent/pull/83498) and a [self-healing mem0 memory](https://github.com/NousResearch/hermes-agent/pull/75446) provider
+
+**🏢 At work**
+- A production web portal (FastAPI) wired into banking APIs and a legacy ERP
+- BI dashboards for corporate travel data
+
+## 🧰 Toolbox
+
+`Python` · `FastAPI` · `Go` · `JavaScript` · `SQL Server` · `SQLite` · `Docker` · `AWS` · `LLM agents`
 
 ---
 
-### 🚀 No que eu trabalho
-
-- 🧩 **Ferramentas internas**: portais web e integrações entre sistemas
-- 📊 **Aquila Hub**: dashboard de BI para viagens corporativas
-- 🤖 **Agentes de IA**: contribuo com o [Hermes Agent](https://github.com/NousResearch/hermes-agent) (Nous Research)
-
-### 🛠️ Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</p>
-
-### 📈 Estatísticas
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=pablo-afterlife&show_icons=true&count_private=true&theme=github_dark&hide_border=true" alt="GitHub stats">
-  <img height="165" src="https://streak-stats.demolab.com?user=pablo-afterlife&theme=github-dark-blue&hide_border=true" alt="Streak">
-</p>
-
-### 📫 Contato
-
-<p>
-  <a href="https://www.linkedin.com/in/pablo-viniciuss/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:pablovinicius.pv939@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
-</p>
-
----
-
-<p align="center"><i>"Código bom é o que resolve o problema e some do caminho."</i></p>
+<sub>I prefer boring code that works. Ship small, verify everything.</sub>
