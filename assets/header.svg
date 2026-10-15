@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Pablo Vinicius, Python and FastAPI Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#1F6FEB"/>
+      <stop offset="1" stop-color="#2F81F7"/>
+    </linearGradient>
+    <!-- borda de baixo em onda, andando para a esquerda -->
+    <clipPath id="onda-frente">
+      <path d="M0 0H2400V178C2250 150 2100 150 1950 178S1650 206 1500 178S1200 150 1050 178S750 206 600 178S300 150 150 178S-150 206 0 178Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+    <clipPath id="onda-tras">
+      <path d="M-1200 0H1200V198C1000 172 800 172 600 198S200 224 0 198S-400 172 -600 198S-1000 224 -1200 198Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="1200 0" dur="22s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+    <style>
+      .name { font: 700 64px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #FFFFFF; letter-spacing: 1px; }
+      .sub  { font: 600 20px 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif; fill: #FFFFFF; fill-opacity: .85; letter-spacing: 3px; }
+    </style>
+  </defs>
+  <rect width="1200" height="230" fill="url(#bg)" opacity=".35" clip-path="url(#onda-tras)"/>
+  <rect width="1200" height="230" fill="url(#bg)" clip-path="url(#onda-frente)"/>
+  <text class="name" x="600" y="92" text-anchor="middle">Pablo Vinicius</text>
+  <text class="sub" x="600" y="132" text-anchor="middle">PYTHON &amp; FASTAPI DEVELOPER · BRAZIL</text>
+</svg>

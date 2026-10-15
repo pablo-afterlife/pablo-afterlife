@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:2F81F7&height=190&section=header&text=Pablo%20Vinicius&fontSize=52&fontColor=FFFFFF&fontAlignY=36&desc=Python%20%26%20FastAPI%20Developer&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Pablo Vinicius" />
+<img src="assets/header.svg" width="100%" alt="Pablo Vinicius, Python & FastAPI Developer" />
 
 <div align="center">
 
@@ -74,4 +74,4 @@ on top of the same SQL Server database, with real bank and tax-authority integra
   <i>"Simple code that works beats clever code that breaks."</i>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2F81F7,50:1F6FEB,100:0D1117&height=110&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" alt="" />

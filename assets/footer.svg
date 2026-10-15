@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F81F7"/>
+      <stop offset="0.45" stop-color="#1F6FEB"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <!-- borda de cima em onda -->
+    <clipPath id="onda-frente">
+      <path d="M0 110H2400V42C2250 70 2100 70 1950 42S1650 14 1500 42S1200 70 1050 42S750 14 600 42S300 70 150 42S-150 14 0 42Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+    <clipPath id="onda-tras">
+      <path d="M-1200 110H1200V24C1000 50 800 50 600 24S200 -2 0 24S-400 50 -600 24S-1000 -2 -1200 24Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="1200 0" dur="22s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="110" fill="url(#bg)" opacity=".35" clip-path="url(#onda-tras)"/>
+  <rect width="1200" height="110" fill="url(#bg)" clip-path="url(#onda-frente)"/>
+</svg>
