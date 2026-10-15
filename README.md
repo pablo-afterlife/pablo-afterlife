@@ -1,83 +1,36 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Righteous&size=35&center=true&vCenter=true&width=600&height=70&duration=4000&color=2F81F7&lines=Hi!+I'm+Pablo+Vinicius!;Python+%7C+FastAPI+Developer;Internal+Tools+%26+Automation;Building+AI+Agents+with+Hermes!" alt="Typing intro" />
-</h1>
-
-<br/>
-
-<div align="center">
-🇧🇷 I'm Brazilian |
-🚀 <b>Developer</b> focused on <b>Python & FastAPI</b> |
-📊 <b>Data & Automation</b> |
-🤖 <b>AI Agents</b> contributor at <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a> |
-🎯 <b>Mission</b>: replace manual work with tools that just work
-</div>
-
----
-
-## 🧰 <b>Tech Arsenal</b>
-
 <div align="center">
 
-### 🐍 Backend & Data
-<img src="https://skillicons.dev/icons?i=py,fastapi,go,sqlite" />
+# Pablo Vinicius
 
-### 🌐 Frontend
-<img src="https://skillicons.dev/icons?i=js,html,css" />
+**Python & FastAPI developer** · building internal tools that replace manual work · Brazil 🇧🇷
 
-### ☁️ Infra & Dev Tools
-<img src="https://skillicons.dev/icons?i=docker,aws,git,github,vscode,linux" />
+<a href="https://www.linkedin.com/in/pablo-viniciuss/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:pablovinicius.pv939@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
 
----
+### About me
 
-## 📈 <b>GitHub Analytics</b>
+- 🏦 I build and run a **production finance portal** (FastAPI) that replaces an ERP screen by screen: payments, bank slips and reconciliation, integrated with **banking APIs** (Pix, boleto, CNAB 240, statements) and a SQL Server ERP.
+- 📊 I build **BI dashboards** for corporate travel data.
+- 🤖 I contribute to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**, an open-source AI agent framework, on subagent orchestration, memory and context management.
 
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=pablo-afterlife&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=2F81F7&icon_color=58A6FF&text_color=FFFFFF" />
-</td>
-<td width="50%">
-<img src="https://streak-stats.demolab.com/?user=pablo-afterlife&theme=tokyonight&hide_border=true&background=0D1117&ring=2F81F7&fire=58A6FF&currStreakLabel=2F81F7" />
-</td>
-</tr>
-</table>
-</div>
+### Open source
 
----
+Pull requests to [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent):
 
-## 🤖 <b>Open Source: Hermes Agent</b>
-
-| Pull request | What it does |
+| Pull request | Status |
 |---|---|
-| [#85486](https://github.com/NousResearch/hermes-agent/pull/85486) | Workflow batch orchestration for subagents (semaphore + caps) |
-| [#85485](https://github.com/NousResearch/hermes-agent/pull/85485) | Continuable subagents with durable ids and settlement reports |
-| [#85481](https://github.com/NousResearch/hermes-agent/pull/85481) | Cache-aware context compression |
-| [#85480](https://github.com/NousResearch/hermes-agent/pull/85480) | Spill oversized tool outputs to session files |
-| [#83498](https://github.com/NousResearch/hermes-agent/pull/83498) | Camofox browser backend |
-| [#75446](https://github.com/NousResearch/hermes-agent/pull/75446) | Self-healing mem0 memory provider |
+| [**Workflow batch orchestration for subagents**](https://github.com/NousResearch/hermes-agent/pull/85486) — semaphore and concurrency caps | ![](https://img.shields.io/github/pulls/detail/state/NousResearch/hermes-agent/85486?style=flat-square&label=) |
+| [**Continuable subagents**](https://github.com/NousResearch/hermes-agent/pull/85485) — durable ids and settlement reports | ![](https://img.shields.io/github/pulls/detail/state/NousResearch/hermes-agent/85485?style=flat-square&label=) |
+| [**Cache-aware context compression**](https://github.com/NousResearch/hermes-agent/pull/85481) | ![](https://img.shields.io/github/pulls/detail/state/NousResearch/hermes-agent/85481?style=flat-square&label=) |
+| [**Spill oversized tool outputs to session files**](https://github.com/NousResearch/hermes-agent/pull/85480) — preview + locator | ![](https://img.shields.io/github/pulls/detail/state/NousResearch/hermes-agent/85480?style=flat-square&label=) |
+| [**Camofox browser backend**](https://github.com/NousResearch/hermes-agent/pull/83498) for `browser_exec` | ![](https://img.shields.io/github/pulls/detail/state/NousResearch/hermes-agent/83498?style=flat-square&label=) |
 
----
+### Tech stack
 
-## 🔥 <b>Current Focus Areas</b>
+<p>
+  <img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,js,html,css,docker,aws,git,github,linux&perline=11" alt="Python, FastAPI, SQLite, JavaScript, HTML, CSS, Docker, AWS, Git, GitHub, Linux" />
+</p>
 
-- 🏢 **Internal tools**: production web portal (FastAPI) integrated with banking APIs and an ERP
-- 📊 **BI dashboards** for corporate travel data
-- 🤖 **AI agents**: orchestration, memory and context management
-
----
-
-## 📫 <b>Connect & Collaborate</b>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/pablo-viniciuss/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:pablovinicius.pv939@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</div>
-
-<br/>
-
-<div align="center">
-  <i>💙 "Simple code that works beats clever code that breaks."</i>
-</div>
+<sub>Also: SQL Server · SQLAlchemy · Pydantic · APScheduler · pytest · GitHub Actions · ECS / CloudWatch</sub>
