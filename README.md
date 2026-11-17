@@ -1,33 +1,38 @@
-<img src="assets/header.svg" width="100%" alt="Pablo Vinicius, Python & FastAPI Developer" />
+<img src="assets/header.svg" width="100%" alt="Pablo Vinicius, Full Stack Developer" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=20&duration=3500&pause=900&color=2F81F7&center=true&vCenter=true&width=620&height=40&lines=Internal+tools+that+replace+manual+work;Banking+integrations+%C2%B7+Pix+%C2%B7+boleto+%C2%B7+CNAB+240;Brazilian+e-invoicing+%C2%B7+NF-e+%C2%B7+NFS-e;BI+dashboards+and+data+pipelines;Quantitative+models+in+Python" alt="Typing intro" />
-
-<br/>
-
 <a href="https://www.linkedin.com/in/pablo-viniciuss/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:pablovinicius.pv939@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=pablo-afterlife&style=for-the-badge&color=1F6FEB&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
 ## 👨‍💻 About me
 
-Brazilian developer who turns manual, spreadsheet-driven work into software that runs on its own.
-Today I build and run a **production finance portal** that is replacing a legacy ERP screen by screen,
-on top of the same SQL Server database, with real bank and tax-authority integrations.
+I design and build a company ERP from scratch, as the technical lead of the project.
+I work as a full stack developer, from the database to the screen, with Python, FastAPI,
+JavaScript, SQL Server and AWS.
+
+The ERP replaces a legacy Delphi system and will cover the whole company, from finance to sales.
+I designed its modular architecture, review and approve every change that goes into the codebase,
+and build features end to end. The finance module is already in production.
+
+Before writing code, I worked in IT support and with TOTVS Protheus, so I learned ERPs from the
+user's side first. In financial systems, one wrong cent becomes a support ticket.
 
 ## 🧩 What I build
 
-| | Application | Stack |
+| | Area | Stack |
 |---|---|---|
-| 🏦 | **Finance portal (in production)**: accounts payable and receivable, payment approval, bank slips, bank reconciliation, audit trail, 2FA | FastAPI · Jinja2 · Pydantic · SQLAlchemy · APScheduler · vanilla JS |
-| 🔌 | **Banking integrations**: payments, Pix and boleto over REST (OAuth 2.0 + mTLS), CNAB 240 files over SFTP, bank statements | requests · Paramiko · cryptography |
-| 🧾 | **Brazilian e-invoicing**: NFS-e issuing, NF-e received from SEFAZ, signed XML, PDF and barcode generation | PyNFe · signxml · ReportLab · fpdf2 |
-| 📊 | **BI dashboards and data APIs**: corporate travel data from the ERP, TV dashboards | pandas · FastAPI · SQL Server · GitHub Pages · Netlify |
-| 📈 | **Quantitative models**: probability models, backtests and calibration over public data and APIs | NumPy · SciPy · pandas · Matplotlib · structlog |
-| ☁️ | **Deploy and operations**: containers, CI/CD, structured logs and performance monitoring | Docker · AWS ECS · S3 · CloudWatch · GitHub Actions |
+| 🏗️ | **ERP architecture**: modular monolith with clear module boundaries, shared platform (login with 2FA, per-screen permissions, audit trail) and a shared design system | FastAPI · Jinja2 · Pydantic · SQLAlchemy · SQL Server · vanilla JS |
+| 🔌 | **Banking integrations**: CNAB 240 payment files (Pix, TED, boleto) over SFTP, bank statement API with OAuth 2.0 + mTLS, bank reconciliation engine | requests · Paramiko · cryptography |
+| 🧾 | **Brazilian e-invoicing**: NFS-e issuing through an API with idempotent references and automatic fallback to the national standard, NF-e received from SEFAZ, boleto PDF with barcode | PyNFe · signxml · ReportLab · fpdf2 · python-barcode |
+| 📊 | **BI dashboards and data APIs**: reporting dashboards that replaced manual spreadsheet updates | pandas · FastAPI · SQL Server · Chart.js · Netlify |
+| ☁️ | **Deploy and quality**: 36% faster server boot, 21% shorter deploy pipeline, 84% test coverage, lint and dependency audit blocking CI | Docker · AWS ECS · CloudWatch · GitHub Actions · pytest · Ruff |
+
+## 📌 Public projects
+
+- **[hermes-alexa](https://github.com/pablo-afterlife/hermes-alexa)**: Alexa as a native channel for [Hermes Agent](https://github.com/NousResearch/hermes-agent). Talk to an AI agent through an Echo device without replacing Alexa. Python.
 
 ## 🛠️ Tech stack
 
@@ -39,26 +44,24 @@ on top of the same SQL Server database, with real bank and tax-authority integra
 
 **Backend & data**
 
-<img src="https://skillicons.dev/icons?i=fastapi,sqlite,postgres&theme=dark" alt="FastAPI, SQLite, PostgreSQL" />
+<img src="https://skillicons.dev/icons?i=fastapi&theme=dark" alt="FastAPI" />
 <br/>
 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square" alt="SQL Server" />
 <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
 <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
 <img src="https://img.shields.io/badge/Jinja-B41717?style=flat-square&logo=jinja&logoColor=white" alt="Jinja" />
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib" />
 
 **Cloud, DevOps & quality**
 
-<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git,github,netlify,vscode&theme=dark" alt="Docker, AWS, GitHub Actions, Linux, Git, GitHub, Netlify, VS Code" />
+<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git,github&theme=dark" alt="Docker, AWS, GitHub Actions, Linux, Git, GitHub" />
 <br/>
 <img src="https://img.shields.io/badge/Amazon_ECS-FF9900?style=flat-square" alt="Amazon ECS" />
-<img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square" alt="Amazon S3" />
 <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square" alt="CloudWatch" />
 <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" />
 <img src="https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black" alt="Ruff" />
+
+**Learning:** React · TypeScript
 
 </div>
 
